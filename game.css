@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-image: url("img/bg.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#container{
+    background: linear-gradient(rgb(196, 223, 196),rgb(245, 245, 144));
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+    height: 40vw;
+    width: 40vw;
+    border-radius: 1rem;
+}
+#score{
+    position: absolute;
+    right: 10rem;
+    top: 2rem;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+    font-size: 2vw;
+}
+.head{
+    border: 1px solid black;
+    background:linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
+    border-radius: 10px;
+}
+.body{
+    border: 1px solid black;
+    background:linear-gradient(rgb(169, 26, 169),rgb(239, 118, 118));
+    border-radius: 10px;
+}
+.food{
+    background: linear-gradient(red, purple);
+    border: 1px solid black;
+    border-radius: 10px;
+}
