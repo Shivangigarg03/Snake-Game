@@ -29,6 +29,7 @@ function isCollide(snake) {
     }
     return false;
 }
+
 function gameEngine() {
     //update food and snakearr
     if (isCollide(snakeArr)) {
@@ -82,7 +83,7 @@ function gameEngine() {
 window.requestAnimationFrame(main);
 // musicSound.play();
 window.addEventListener("keydown", e => {
-    // moveSound.play();
+    moveSound.play();
     switch (e.key) {
         case "ArrowUp":
             inputDir.x = 0;
