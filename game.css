@@ -36,7 +36,7 @@
 }
 .body{
     border: 1px solid black;
-    background:linear-gradient(rgb(169, 26, 169),rgb(239, 118, 118));
+    background:linear-gradient(rgb(227, 144, 144), rgb(244, 244, 168));
     border-radius: 10px;
 }
 .food{
